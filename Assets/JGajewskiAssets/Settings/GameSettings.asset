@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f4388eff1ffeb46a9081ec0c3766e5, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  horizontalGameViewRange:
+    min: -17
+    max: 17
+  verticalGameViewRange:
+    min: -8.5
+    max: 8.5
+  verticalPositions:
+  - -8.5
+  - -6.375
+  - -4.25
+  - -2.125
+  - 0
+  - 2.125
+  - 4.25
+  - 6.375
+  - 8.5
+  verticalPositionStep: 2.125
+  verticalLines: 9
+  highScoresSaveFileName: highscores.save
+  highScoresCountOnList: 10
+  transitionFadesDuration: 0.33
